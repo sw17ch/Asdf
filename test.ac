@@ -1,0 +1,13 @@
+infixr + 5
+infixr - 5
+
+x = a + b + c
+--  y = b - d
+
+if a
+  x = x + a
+  y = b - d
+else
+  y = (y - a) + c
+  u = y - b
+u = b
